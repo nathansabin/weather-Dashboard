@@ -1,0 +1,15 @@
+/* Header style */
+.title-header {
+    height: 45px;
+    width: 100%;
+    background-color:navy;
+    color: whitesmoke;
+    text-align: right;
+}
+
+@media (max-width: 230px) {
+    .title-header{
+        font-size: 18px;
+        width: 200%;
+    }
+}
